@@ -62,7 +62,7 @@ class Predictor(cog.Predictor):
         else:
 
             img = Image.open(os.path.join("inference", output_dir, basename))
-            out_path = Path(tempfile.mkdtemp()) / "out.gif"
+            out_path = Path(tempfile.mkdtemp()) / "out.png"
             img.save(str(out_path))
 
         clean_folder(os.path.join("inference", output_dir))
