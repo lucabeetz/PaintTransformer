@@ -2,6 +2,8 @@
 
 > [[Paper](https://arxiv.org/abs/2108.03798)] [[PyTorch Implementation](https://github.com/Huage001/PaintTransformer)] [[Paddle Implementation](https://github.com/PaddlePaddle/PaddleGAN)]
 
+[Docker image and demo on Replicate](https://replicate.ai/lucabeetz/painttransformer)
+
 ## Overview
 
 This repository contains the official PyTorch implementation of paper:
